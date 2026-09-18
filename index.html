@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film & Photography Club | Aditya University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="#" style="display: flex; align-items: center; text-decoration: none; gap: 12px;">
+                <img src="assets/images/logo.jpg" alt="AU Film & Photography Logo" class="logo-img">
+                <span style="color: #fff; font-family: var(--font-heading); font-size: 1.1rem; letter-spacing: 2px;">FILM & PHOTOGRAPHY</span>
+            </a>
+        </div>
+        <div class="nav-right">
+            <div class="nav-links">
+                <a href="#hero">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#explore">EXPLORE</a>
+                <a href="#gallery">GALLERY</a>
+                <button class="nav-join-btn register-btn">JOIN</button>
+            </div>
+            <div class="nav-right-logo">
+                <a href="https://adityauniversity.in" target="_blank" rel="noopener noreferrer" style="display: block;">
+                    <img src="assets/images/au-logo-gold.png" alt="AU Logo" class="au-nav-logo">
+                </a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#hero">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#explore">EXPLORE</a>
+        <a href="#gallery">GALLERY</a>
+        <button class="mobile-join-btn register-btn">JOIN</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <p class="hero-label">ADITYA UNIVERSITY</p>
+            <h1 class="hero-title">FILM & PHOTOGRAPHY<br>CLUB</h1>
+            <p class="hero-subtitle">Frame moments. Tell stories. Create something unforgettable.</p>
+            <div class="hero-cta">
+                <button class="primary-btn register-btn">JOIN THE CLUB</button>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <p>SCROLL TO EXPLORE</p>
+            <div class="arrow"></div>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="about-card reveal">
+                <img src="assets/images/Screenshot_2026-08-21_120535-removebg-preview.png  " alt="Aditya University" class="about-au-logo">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2 class="about-title">Film & Photography Club</h2>
+                        
+                        <h3 class="about-subtitle">Aditya University</h3>
+                        <p class="about-tagline"><strong>Capture Moments. Create Stories.</strong></p>
+                        <p>The Film & Photography Club of Aditya University is a creative platform for students passionate about visual storytelling.</p>
+                        <p>The club focuses on photography, filmmaking, editing, and cinematography through workshops, photo walks, and short film projects.</p>
+                        <p>It helps students enhance their creativity, technical skills, and storytelling abilities while providing opportunities to showcase their work in competitions and events.</p>
+                        <div class="about-tags">
+                            <span>Photography</span>
+                            <span>Filmmaking</span>
+                            <span>Editing</span>
+                            <span>Cinematography</span>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <img src="assets/images/logo.jpg" alt="Film & Photography Club Logo" class="about-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work & Activities Section -->
+    <section id="explore" class="work-categories section-padding">
+        <div class="container">
+            <div class="work-header reveal">
+                <h2 class="work-title">What we have done & what we will do.</h2>
+                <p class="work-desc">From massive university events to directing our own short films — discover the creative projects and media support we bring to life.</p>
+            </div>
+            
+            <div class="work-grid">
+                <!-- 1. Short Films (Now Featured First) -->
+                <div class="work-card reveal" style="background-image: url('https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=80');">
+                    <div class="work-overlay"></div>
+                    <div class="work-content">
+                        <h3 style="color: var(--accent); font-size: 1.8rem; margin-bottom: 8px;">Short Films</h3>
+                        <p style="font-size: 1rem; color: #ffffff;">Covering all fields in cinema—acting, directing, writing, cinematography, editing and competetions.</p>
+                    </div>
+                </div>
+                
+                <!-- 2. Blood Camp -->
+                <div class="work-card reveal" style="transition-delay: 100ms; background-image: url('assets/images/blood-camp.jpg');">
+                    <div class="work-overlay"></div>
+                    <div class="work-content">
+                        <h3>Blood Camp</h3>
+                        <p>Videography & Photography</p>
+                    </div>
+                </div>
+                
+                <!-- 3. Thunder Thursday -->
+                <div class="work-card reveal" style="transition-delay: 200ms; background-image: url('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80');">
+                    <div class="work-overlay"></div>
+                    <div class="work-content">
+                        <h3>Thunder Thursday</h3>
+                        <p>Videography & Photography</p>
+                    </div>
+                </div>
+                
+                <!-- 4. Vivo India -->
+                <div class="work-card reveal" style="transition-delay: 300ms; background-image: url('assets/images/vivo-workshop.jpg');">
+                    <div class="work-overlay"></div>
+                    <div class="work-content">
+                        <h3>Vivo India - Frame Your Vision</h3>
+                        <p>Workshop on Photography</p>
+                    </div>
+                </div>
+                
+                <!-- 5. Event Media Support -->
+                <div class="work-card reveal" style="transition-delay: 400ms; background-image: url('https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=600&q=80');">
+                    <div class="work-overlay"></div>
+                    <div class="work-content">
+                        <h3>Event Media Support</h3>
+                        <p>Video & Poster Editing, Videography, Photography</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Events Placeholder -->
+    <section class="future-events section-padding">
+        <div class="container reveal text-center">
+            <h2 class="future-title">FUTURE EVENTS</h2>
+            <p class="future-desc">We will be conducting more exciting events soon.</p>
+            <div class="future-placeholder">
+                <p>Event details and schedules will be shared here...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 24 Crafts Section (Box Grid Version) -->
+    <section id="crafts" class="explore section-padding">
+        <div class="container">
+            <h2 class="section-title text-center reveal">THE 24 CRAFTS OF CINEMA</h2>
+            <p class="text-center reveal crafts-subtext">
+                From the first word of the script to the final color grade, our club unites students passionate about every single craft of filmmaking.
+            </p>
+            <div class="explore-grid">
+                <div class="explore-card reveal">
+                    <div class="explore-bg" style="background-image: url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=600&q=80')"></div>
+                    <h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5"/><path d="M4 11h16"/><path d="M4 11v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="m8 4 4 7"/><path d="m16 4-4 7"/></svg>
+                        DIRECTOR
+                    </h3>
+                    <p>The visionary guiding the story, actors, and overall creative direction.</p>
+                </div>
+                <div class="explore-card reveal" style="transition-delay: 100ms;">
+                    <div class="explore-bg" style="background-image: url('https://images.unsplash.com/photo-1585644673648-5221b6d1947a?auto=format&fit=crop&w=600&q=80')"></div>
+                    <h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>
+                        CINEMATOGRAPHER
+                    </h3>
+                    <p>Painting with light and lenses to capture the perfect cinematic shot.</p>
+                </div>
+                <div class="explore-card reveal" style="transition-delay: 200ms;">
+                    <div class="explore-bg" style="background-image: url('https://images.unsplash.com/photo-1455390582262-044cdead2708?auto=format&fit=crop&w=600&q=80')"></div>
+                    <h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
+                        WRITER
+                    </h3>
+                    <p>Architects of the narrative, building characters and worlds from scratch.</p>
+                </div>
+                <div class="explore-card reveal" style="transition-delay: 300ms;">
+                    <div class="explore-bg" style="background-image: url('https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=600&q=80')"></div>
+                    <h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+                        EDITOR
+                    </h3>
+                    <p>Sculpting time and rhythm, transforming raw footage into visual experiences.</p>
+                </div>
+                <div class="explore-card reveal" style="transition-delay: 400ms;">
+                    <div class="explore-bg" style="background-image: url('https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=600&q=80')"></div>
+                    <h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg>
+                        MUSIC DIRECTOR
+                    </h3>
+                    <p>Creating the auditory world through Music,Foley, mixing, and soundscapes.</p>
+                </div>
+                <div class="explore-card reveal" style="transition-delay: 500ms;">
+                    <div class="explore-bg" style="background-image: url('https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=600&q=80')"></div>
+                    <h3>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        + 19 OTHER CRAFTS
+                    </h3>
+                    <p>Art Direction, VFX, Makeup, Color Grading, Production & more...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Your Frame Section -->
+    <section id="frame" class="frame-section section-padding">
+        <div class="container">
+            <h2 class="section-title text-center reveal">WHAT'S YOUR FRAME?</h2>
+            <div class="frame-mosaic reveal">
+                <!-- Panel 1 -->
+                <div class="mosaic-item large" style="background-image: url('assets/images/frame-photography.png'); image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; filter: contrast(1.1) saturate(1.1) brightness(1.05);">
+                    <div class="mosaic-overlay"></div>
+                    <div class="mosaic-content">
+                        <h3>Photography</h3>
+                        <p>Capture emotion, light, people, nature and unexpected moments.</p>
+                    </div>
+                </div>
+                <!-- Panel 2 -->
+                <div class="mosaic-item" style="background-image: url('https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=800&q=80')">
+                    <div class="mosaic-overlay"></div>
+                    <div class="mosaic-content">
+                        <h3>Filmmaking</h3>
+                        <p>Turn ideas into scenes, sequences and stories.</p>
+                    </div>
+                </div>
+                <!-- Panel 3 -->
+                <div class="mosaic-item" style="background-image: url('assets/images/frame-cinematography.png'); image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; filter: contrast(1.1) saturate(1.1) brightness(1.05);">
+                    <div class="mosaic-overlay"></div>
+                    <div class="mosaic-content">
+                        <h3>Cinematography &<br>Videography</h3>
+                        <p>Explore framing, composition, lighting and camera movement.</p>
+                    </div>
+                </div>
+                <!-- Panel 4 -->
+                <div class="mosaic-item" style="background-image: url('assets/images/frame-editing.png'); image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; filter: contrast(1.1) saturate(1.1) brightness(1.05);">
+                    <div class="mosaic-overlay"></div>
+                    <div class="mosaic-content">
+                        <h3>Editing</h3>
+                        <p>Transform raw footage into meaningful visual experiences.</p>
+                    </div>
+                </div>
+                <!-- Panel 5 -->
+                <div class="mosaic-item" style="background-image: url('assets/images/frame-storytelling.png'); image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; filter: contrast(1.1) saturate(1.1) brightness(1.05);">
+                    <div class="mosaic-overlay"></div>
+                    <div class="mosaic-content">
+                        <h3>Storytelling</h3>
+                        <p>Learn how to communicate an idea without saying everything.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gear Background Wrapper -->
+    <div class="gear-bg-section">
+        <div class="gear-overlay"></div>
+    <!-- Why Join Us Section -->
+    <section class="benefits section-padding">
+        <div class="container">
+            <h2 class="section-title text-center reveal">YOUR CAMERA ISN'T JUST A CAMERA.</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item reveal">
+                    <h4>LEARN</h4>
+                    <p>Learn practical creative skills.</p>
+                </div>
+                <div class="benefit-item reveal" style="transition-delay: 150ms;">
+                    <h4>CREATE</h4>
+                    <p>Turn your ideas into real visual work.</p>
+                </div>
+                <div class="benefit-item reveal" style="transition-delay: 300ms;">
+                    <h4>COLLABORATE</h4>
+                    <p>Meet students who love filmmaking and photography.</p>
+                </div>
+                <div class="benefit-item reveal" style="transition-delay: 450ms;">
+                    <h4>SHOWCASE</h4>
+                    <p>Get opportunities to display your work and participate in events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline section-padding">
+        <div class="container">
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>IDEA</h4>
+                        <p>Brainstorm and script.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" style="transition-delay: 150ms;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>SHOOT</h4>
+                        <p>Light, frame, and capture.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" style="transition-delay: 300ms;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>EDIT</h4>
+                        <p>Cut, color, and polish.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" style="transition-delay: 450ms;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>CREATE</h4>
+                        <p>Finalize the masterpiece.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" style="transition-delay: 600ms;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>SHOWCASE</h4>
+                        <p>Premiere to the world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section-padding">
+        <div class="container">
+            <h2 class="section-title text-center reveal">CREATE THROUGH YOUR LENS</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal" data-category="CINEMATIC">
+                    <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Cinematic shot" loading="lazy">
+                    <div class="item-overlay"><span>CINEMATIC</span></div>
+                </div>
+                <div class="gallery-item reveal" data-category="PORTRAIT">
+                    <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Portrait" loading="lazy">
+                    <div class="item-overlay"><span>PORTRAIT</span></div>
+                </div>
+                <div class="gallery-item reveal" data-category="STREET">
+                    <img src="https://images.unsplash.com/photo-1517511620798-cec17d428bc0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Street photography" loading="lazy">
+                    <div class="item-overlay"><span>STREET</span></div>
+                </div>
+                <div class="gallery-item reveal" data-category="NATURE">
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Nature" loading="lazy">
+                    <div class="item-overlay"><span>NATURE</span></div>
+                </div>
+                <div class="gallery-item reveal" data-category="EVENTS">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Events" loading="lazy">
+                    <div class="item-overlay"><span>EVENTS</span></div>
+                </div>
+                <div class="gallery-item reveal" data-category="CAMPUS">
+                    <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Campus" loading="lazy">
+                    <div class="item-overlay"><span>CAMPUS</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section section-padding">
+        <div class="container">
+            <div class="team-grid">
+                <div class="team-image reveal">
+                    <img src="https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=1000&q=80" alt="Film and Photography Club Poster" loading="lazy">
+                </div>
+                <div class="team-content">
+                    <h2 >Film & Photography Club</h2>
+                    <br>
+                    <p class="team-subtitle reveal right" style="transition-delay: 100ms;">Meet the team behind the lens making it all happen.</p>
+                    
+                    <div class="team-list">
+                        <!-- Card 1 -->
+                        <div class="team-card reveal right" style="transition-delay: 200ms;">
+                            <div class="team-avatar">M</div>
+                            <div class="team-info">
+                                <h4>R. Phani Neelesh</h4>
+                                <span>MANAGER</span>
+                                <div class="team-contact">
+                                    <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    8688508914
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Card 2 -->
+                        <div class="team-card reveal right" style="transition-delay: 300ms;">
+                            <div class="team-avatar">AM</div>
+                            <div class="team-info">
+                                <h4>K. Satwika</h4>
+                                <span>ASST MANAGER</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card 3 -->
+                        <div class="team-card reveal right" style="transition-delay: 400ms;">
+                            <div class="team-avatar">FC</div>
+                            <div class="team-info">
+                                <h4>N. Raveendra Reddy</h4>
+                                <span>FACULTY COORDINATOR</span>
+                                <div class="team-contact">
+                                    <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    8374663389
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team-footer-tags reveal right" style="transition-delay: 500ms;">
+                        BE CREATIVE <span class="divider">|</span> BE INSPIRED <span class="divider">|</span> BE YOU
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="join section-padding text-center">
+        <div class="container reveal">
+            <h2 class="join-title">READY TO CREATE YOUR FIRST FRAME?</h2>
+            <p class="join-subtitle">Whether you're behind the camera, in the edit room, or simply full of stories — there's a place for you here.</p>
+            <button class="primary-btn large-btn register-btn">JOIN FILM & PHOTOGRAPHY CLUB</button>
+            <p class="join-footer-label">ADITYA UNIVERSITY &bull; FILM & PHOTOGRAPHY CLUB</p>
+        </div>
+    </section>
+
+    <!-- Sticky Side Button -->
+    <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=lvhZc-Jxrk24oxXN-X8vEKaKqaKj66hBkaUByCd1S2pUQ0haTUVYMDA0UE5JSjlYVU9RSlVaVDdFQS4u" target="_blank" class="sticky-side-btn" id="stickyApplyBtn" aria-label="Apply for short film making">
+        <span>APPLY FOR SHORT FILM MAKING IN CAMPUS</span>
+    </a>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col footer-brand">
+                <h3>ADITYA UNIVERSITY<br>FILM & PHOTOGRAPHY CLUB</h3>
+                <p class="tagline">"Frames become memories.<br>Stories become moments."</p>
+            </div>
+            
+            <div class="footer-col footer-contact">
+                <div class="footer-address">
+                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="var(--accent)" stroke-width="2" fill="none" class="location-icon"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <p>Aditya Nagar, ADB Road, Surampalem,<br>Kakinada District, Andhra Pradesh,<br>India - 533437</p>
+                </div>
+                <div class="footer-queries">
+                    <p>FOR QUERIES REGARDING CLUB/EVENT<br>(CONTACT MANAGER OR FACULTY COORDINATOR).</p>
+                    <p>FOR WEBSITE QUERIES OR TECHNICAL ISSUES<br>(CONTACT MANAGER).</p>
+                </div>
+            </div>
+
+            <div class="footer-col footer-links">
+                <h4>Quick Links</h4>
+                <a href="#hero">Home</a>
+                <a href="#about">About the Club</a>
+             
+                <a href="#team">Our Team</a>
+            </div>
+
+            <div class="footer-col footer-socials">
+                <h4>Connect</h4>
+                <a href="#" aria-label="Instagram">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Copyright 2026 - Film and photography club - Aditya University. All Rights Reserved. <span class="footer-diamond">◆</span> <span class="designed-text">Website Designed for Film & Photography Club - Aditya University by <a  class="gyrfalcon-link">GyrFalcon Services</a></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-close">&times;</div>
+        <button class="lightbox-prev">&lt;</button>
+        <img src="" alt="Fullscreen image" class="lightbox-img">
+        <button class="lightbox-next">&gt;</button>
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
