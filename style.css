@@ -949,12 +949,8 @@ body::before {
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
+    opacity: 1; /* ALWAYS VISIBLE */
     transition: opacity 0.4s ease;
-}
-
-.gallery-item:hover .item-overlay {
-    opacity: 1;
 }
 
 .item-overlay span {
@@ -964,14 +960,14 @@ body::before {
     font-size: 1.1rem;
     border: 1px solid rgba(255,255,255,0.8);
     padding: 12px 24px;
-    transform: scale(0.9);
+    transform: scale(1); /* ALWAYS FULL SIZE */
     transition: transform 0.4s ease;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 }
 
 .gallery-item:hover .item-overlay span {
-    transform: scale(1);
+    background: rgba(255,255,255,0.1); /* Slight highlight on hover */
 }
 
 /* GEAR BACKGROUND WRAPPER */
