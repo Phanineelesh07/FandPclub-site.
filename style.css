@@ -886,9 +886,12 @@ body::before {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "main tr"
+        "main br";
     width: 100%;
     height: 100%;
-    gap: 2px; /* Small gap between collage photos */
+    gap: 3px; /* Small gap between collage photos */
 }
 
 .collage-grid img {
@@ -904,9 +907,9 @@ body::before {
     filter: brightness(1);
 }
 
-.collage-grid img:nth-child(1) {
-    grid-row: span 2; /* Left half of the card */
-}
+.collage-grid img:nth-child(1) { grid-area: main; }
+.collage-grid img:nth-child(2) { grid-area: tr; }
+.collage-grid img:nth-child(3) { grid-area: br; }
 
 .gallery-item {
     position: relative;
