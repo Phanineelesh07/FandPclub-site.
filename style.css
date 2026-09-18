@@ -1326,7 +1326,7 @@ body::before {
 /* FOOTER */
 .footer {
     border-top: 1px solid rgba(255,255,255,0.05);
-    padding: 100px 0 0;
+    padding: 50px 0 0;
     background: #030303;
     position: relative;
     overflow: hidden;
@@ -1335,16 +1335,16 @@ body::before {
 .footer-content {
     display: grid;
     grid-template-columns: 1.5fr 2fr 1fr 1fr;
-    gap: 60px;
-    margin-bottom: 70px;
+    gap: 40px;
+    margin-bottom: 40px;
     position: relative;
     z-index: 2;
 }
 
 .footer-col h3, .footer-col h4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: 3px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -1353,73 +1353,69 @@ body::before {
     font-family: var(--font-serif);
     font-style: normal;
     color: #aaa;
-    font-size: 1.1rem;
-    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .footer-contact .footer-address {
     display: flex;
     align-items: flex-start;
-    gap: 15px;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
 .footer-contact .location-icon {
     flex-shrink: 0;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 .footer-contact p {
     color: #999;
-    font-size: 0.95rem;
-    line-height: 1.7;
+    font-size: 0.9rem;
+    line-height: 1.5;
 }
 
 .footer-queries {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
 }
 
 .footer-queries p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--accent);
     letter-spacing: 1px;
     text-transform: uppercase;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 .footer-links, .footer-socials {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 .footer-links a, .footer-socials a {
     color: #999;
     text-decoration: none;
     font-size: 0.95rem;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
-    position: relative;
-    width: fit-content;
+    transition: color 0.3s ease;
 }
 
 .footer-links a:hover, .footer-socials a:hover {
     color: #fff;
-    transform: translateX(8px);
 }
 
 .footer-bottom {
     background-color: #000000;
     text-align: center;
-    padding: 25px 0;
-    font-size: 0.85rem;
+    padding: 15px 0;
+    font-size: 0.8rem;
     color: #888;
     letter-spacing: 1px;
-    line-height: 1.6;
+    line-height: 1.5;
     position: relative;
     z-index: 2;
 }
